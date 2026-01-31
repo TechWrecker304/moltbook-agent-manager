@@ -1,0 +1,19 @@
+# Moltbook Agent Manager v3.0.0 Requirements
+# ==========================================
+
+# Core Requirements (Required)
+customtkinter>=5.2.0
+pillow>=10.0.0
+requests>=2.31.0
+
+# AI Features (Required for AI generation)
+openai>=0.28.0,<1.0.0
+
+# Security - Enhanced (Recommended)
+keyring>=24.0.0          # Uses OS credential store (best security)
+cryptography>=41.0.0     # AES encryption (fallback)
+
+# Optional Features
+matplotlib>=3.8.0        # For analytics charts
+pystray>=0.19.0          # For system tray icon
+schedule>=1.2.0          # For background scheduling
